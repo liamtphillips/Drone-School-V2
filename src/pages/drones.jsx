@@ -53,16 +53,16 @@ const Drones = () => {
 
   const selectedDroneData = droneData[selectedDrone];
   return (
-    <div className='bg-white '>
-      <div className='container px-16 lg:px-10 mx-auto min-h-screen font-raleway'>
+    <div className=' '>
+      <div className='container px-16 lg:px-18 mx-auto min-h-screen font-raleway '>
         <div className='text-center lg:pt-20'>
           <h1 className='font-raleway text-center text-1xl tracking-widest mt-20 px-5'>THE TOOLS WE USE</h1>
           <h1 className='text-5xl font-bold mt-6'>Our Drone Fleet</h1>
           <p className='mt-6 mb-5 lg:mb-0'>We have a variety of high quality drones available for our lessons.</p>
         </div>
         <div className="flex lg:flex-row flex-col justify-center items-center lg:mt-20 lg:py-10 px-18">
-          <div className="flex flex-col lg:flex-row w-full max-w-full">
-            <div className="lg:w-1/4 p-4 flex flex-col space-y-4 mb-10 lg:mb-0">
+          <div className="flex flex-col lg:flex-row w-full max-w-full ">
+            <div className="lg:w-1/4 p-4 flex flex-col space-y-4 mb-10 lg:mb-0 ">
               <button
                 className={` py-4 px-4 text-xl border-2 border-black text-black font-semibold rounded ${selectedDrone === 'mavic' ? ' bg-blue-800 text-white' : ''
                   }`}
@@ -103,7 +103,7 @@ const Drones = () => {
                 <img src={images.maurice} alt={selectedDroneData.model} className="w-full" />
               )}
             </div>
-            <div className="lg:w-1/4 p-4 mb-10 md:mb-0">
+            <div className="lg:w-1/4 p-4 mb-10 md:mb-0 pl-2 lg:mr-4 ">
               <table className="table-auto w-full lg:min-w-[320px] min-h-[320px] text-sm lg:text-lg">
                 <thead className='border-2 border-black bg-blue-800'>
                   <tr>
@@ -144,7 +144,6 @@ const Drones = () => {
         </div>
       </div>
     </div>
-
   )
 }
 

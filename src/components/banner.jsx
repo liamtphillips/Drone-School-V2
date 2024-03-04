@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const banner = () => {
   return (
-    <section className='bg-blue-800  font-raleway mt-20'>
+    <section className='bg-gradient-to-r from-slate-900 to-blue-900  font-raleway '>
       <div className='container px-20 mx-auto text-white text-center'>
         <div className="flex items-center justify-center p-14">
           <div className="">

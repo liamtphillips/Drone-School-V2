@@ -16,9 +16,9 @@ const CardComponent = ({ name, role, image, bio, experience }) => {
         <div className="absolute inset-0 h-full w-full rounded-xl bg-blue-800 px-12 text-center text-slate-200 [transform:rotateY(180deg)] [backface-visibility:hidden]">
           <div className="flex min-h-full flex-col items-center justify-center">
             <h1 className="text-2xl font-bold mb-2">Experience</h1>
-            <p className="text-lg mb-2 text-gray-300">{experience}</p>
+            <p className="lg:text-base text-sm mb-2 text-gray-300">{experience}</p>
             <h1 className="text-2xl font-bold mb-2">About</h1>
-            <p className="text-base text-gray-300">{bio}</p>
+            <p className="lg:text-base text-sm text-gray-300">{bio}</p>
           </div>
         </div>
       </div>

@@ -5,10 +5,12 @@ import Landing from './pages/landing';
 import Lessons from './pages/lessons';
 import Contact from './pages/contact';
 import Footer from './components/footer';
+import ScrollToTop from './components/ScrollToTop'
 
 function App() {
   return (
     <Router>
+      <ScrollToTop />
       <div>
         <div className='sticky top-0 z-20 '>
         <Navbar />
