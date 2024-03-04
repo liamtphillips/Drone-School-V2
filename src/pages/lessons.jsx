@@ -31,7 +31,7 @@ const portfolio = () => {
           <h1 className='text-center text-1xl tracking-widest mt-20 px-5 '>OUR LESSONS</h1>
           <h1 className='text-center text-4xl px-5 font-bold mt-4 max-w-[600px] mx-auto'>There's a lesson for everybody, no matter your level.</h1>
         </div>
-        <div className="flex flex-wrap mt-20 gap-x-32 justify-center gap-y-10 lg:py-10">
+        <div className="flex flex-wrap mt-20 gap-x-8 justify-center gap-y-10 lg:py-10">
           {courseData.map((member, index) => (
             <LessonCard
               key={index}

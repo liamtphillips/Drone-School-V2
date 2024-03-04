@@ -28,13 +28,13 @@ const TeamSection = () => {
   ];
 
   return (
-    <section className="bg-white py-12 min-h-screen flex font-raleway ">
+    <section className=" py-12 min-h-screen flex font-raleway ">
       <div className="container mx-auto md:px-4 px-16 lg:px-0">
         <div>
           <h1 className='text-center text-1xl tracking-widest capitalize mt-20 px-5 '>OUR TEAM</h1>
           <h1 className='text-center text-4xl px-5 font-bold mt-4 max-w-[600px] mx-auto'>Let's meet your new drone tutors!</h1>
         </div>
-        <div className="flex flex-wrap mt-20 lg:py-10 gap-x-40 gap-y-20 justify-center">
+        <div className="flex flex-wrap mt-20 lg:py-10 gap-x-28 gap-y-20 justify-center">
           {teamData.map((member, index) => (
             <CardComponent
               key={index}

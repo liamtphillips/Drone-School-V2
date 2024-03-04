@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const navItemsInfo = [
     { name: "Home", type: "link", href: "/" },
     { name: "Lessons", type: "link", href: "/lessons" },
-    { name: "Contact", type: "link", href: "/contact" },
+   
 ];
 
 const Navbar = () => {
@@ -20,10 +20,10 @@ const Navbar = () => {
     };
 
     return (
-        <section className="bg-gradient-to-r from-slate-900 to-blue-900  shadow-lg">
-            <header className='container sticky top-0 font-raleway text-white mx-auto px-14 flex justify-between py-4 items-center'>
+        <section className="bg-gradient-to-r from-slate-900 to-blue-900 shadow-lg">
+            <header className='container sticky top-0 font-raleway text-white mx-auto px-12 flex justify-between py-4 items-center'>
                 <div>
-                    <p className=" font-bold">Drone School</p>
+                    <Link to="/" className=" font-bold lg:text-4xl">Drone School</Link>
                 </div>
                 <div className="lg:hidden ">
                     {navIsVisible ? (
@@ -42,8 +42,12 @@ const Navbar = () => {
                                 ) : (
                                     <span>{item.name}</span>
                                 )}
+                               
                             </li>
                         ))}
+                        <Link to="/contact">
+                         <button className="bg-white p-2 rounded-lg hover:bg-gray-300">Contact</button>
+                         </Link>
                     </ul>
                 </div>
             </header>

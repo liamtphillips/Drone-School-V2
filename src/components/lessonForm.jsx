@@ -14,7 +14,7 @@ const LessonForm = () => {
     };
 
     return (
-        <div className="w-full container lg:px-12 mx-auto mt-5 pb-20">
+        <div className="w-full container lg:px-4 mx-auto mt-5 pb-20">
             <form onSubmit={handleSubmit} className="grid grids-cols-1 lg:grid-cols-3 gap-4 bg-paper bg-cover shadow-lg p-6 rounded-lg px-10">
                 <div className="col-span-1">
                     <div className="mb-4">
