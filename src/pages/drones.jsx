@@ -56,7 +56,7 @@ const Drones = () => {
     <div className=' '>
       <div className='container px-16 lg:px-18 mx-auto min-h-screen font-raleway '>
         <div className='text-center lg:pt-20'>
-          <h1 className='font-raleway text-center text-1xl tracking-widest lg:mr-4 mt-20 px-5'>THE TOOLS WE USE</h1>
+          <h1 className='font-raleway text-center text-1xl tracking-widest lg:mr-6 mt-20 px-5'>THE TOOLS WE USE</h1>
           <h1 className='text-5xl font-bold mt-6'>Our Drone Fleet</h1>
           <p className='mt-6 mb-5 lg:mb-0'>We have a variety of high quality drones available for our lessons.</p>
         </div>

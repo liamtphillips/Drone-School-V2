@@ -46,7 +46,7 @@ const Navbar = () => {
                             </li>
                         ))}
                         <Link to="/contact">
-                         <button className="bg-white p-2 rounded-lg hover:bg-gray-300">Contact</button>
+                         <button onClick={closeNav} className="bg-white p-2 rounded-lg hover:bg-gray-300 text-black">Contact</button>
                          </Link>
                     </ul>
                 </div>
