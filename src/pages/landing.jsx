@@ -40,11 +40,15 @@ const Landing = () => {
           </div>
         </div>
       </div>
+      <div className='bg-slate-200'>
       <About id="about" />
+      </div>
       <Banner />
+      <div className='bg-slate-200'>
       <Team />
       <Drones />
       <CustomerReviews />
+      </div>
     </section>
   );
 };
