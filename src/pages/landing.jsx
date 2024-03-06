@@ -11,10 +11,10 @@ import heroVideo from '../assets/herovid2.mp4'
 
 const Landing = () => {
   return (
-    <section className='h-full w-full'>
-      <div className="font-raleway bg-blue-500">
+    <section className='min-h-screen'>
+      <div className="font-raleway">
         <video
-          className='object-cover h-full w-full absolute hidden lg:block'
+          className='object-cover h-full w-full absolute'
           src={heroVideo}
           autoPlay
           loop

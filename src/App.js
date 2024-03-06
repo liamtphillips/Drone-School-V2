@@ -11,7 +11,7 @@ function App() {
   return (
     <Router>
       <ScrollToTop />
-      <div>
+      <div className='bg-slate-200'>
         <div className='sticky top-0 z-20 '>
         <Navbar />
         </div>
