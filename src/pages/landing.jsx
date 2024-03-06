@@ -12,7 +12,7 @@ import heroVideo from '../assets/herovid2.mp4'
 const Landing = () => {
   return (
     <section className='h-full w-full'>
-      <div className="font-raleway">
+      <div className="font-raleway bg-blue-500">
         <video
           className='object-cover h-full w-full absolute hidden lg:block'
           src={heroVideo}
