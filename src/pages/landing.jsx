@@ -14,7 +14,7 @@ const Landing = () => {
     <section className='h-full w-full'>
       <div className="font-raleway">
         <video
-          className='object-cover h-full w-full absolute'
+          className='object-cover h-full w-full absolute hidden lg:block'
           src={heroVideo}
           autoPlay
           loop
