@@ -22,7 +22,7 @@ const Landing = () => {
           playsInline
         />
         <div className="min-h-screen flex justify-center container mx-auto">
-          <div className="flex flex-col justify-center text-center items-center px-10 z-[10] text-black pb-46">
+          <div className="flex flex-col justify-center text-center items-center px-10 z-[10] text-black pb-48">
             <h1 className=" text-3xl md:text-6xl font-raleway font-semibold ">The Sky's the Limit!</h1>
             <p className="font-exo lg:text-2xl text-lg mt-10 lg:max-w-xl">
               Whether you're a beginner or an experienced pilot aiming to refine your skills,
