@@ -11,7 +11,7 @@ import heroVideo from '../assets/herovid2.mp4'
 
 const Landing = () => {
   return (
-    <section>
+    <section className='m-0 p-0'>
       <div className="font-raleway">
         <video
           className='object-cover h-full w-full absolute'

@@ -5,7 +5,7 @@ const About = () => {
   return (
     <div id="about" className='container font-raleway px-16 lg:px-12 lg:pr-10 mx-auto min-h-screen pb-5 flex flex-col justify-center lg:pb-20 items-center text-black'>
       <div>
-        <h1 className='font-raleway text-center text-1xl tracking-widest capitalize lg:mt-20 px-5'>ABOUT US</h1>
+        <h1 className='font-raleway text-center text-1xl tracking-widest capitalize mt-20 px-5'>ABOUT US</h1>
         <h1 className='font-raleway text-center text-4xl px-5 font-bold mt-4 max-w-[600px] mx-auto'>Expert drone tutors, at your service, anytime.</h1>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 p-4 mt-10 md:mt-20">
